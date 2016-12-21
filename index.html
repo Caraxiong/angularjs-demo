@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo</title>
+	<meta charset="utf-8">
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+
+	<script src="dist/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/all-d083a2c17d.css">
+	
+    <script src="lib/browser-url.js"></script>
+    <script src="lib/d3.js"></script>
+    <script src="lib/ui-router-visualizer.js"></script>
+</head>
+<body ng-app="app">
+	<a ui-sref="hello" ui-sref-active="active">Hello</a>
+    <a ui-sref="about" ui-sref-active="active">About</a>
+    <a ui-sref="people" ui-sref-active="active">People</a>
+    <a ui-sref="login" ui-sref-active="active">login</a>
+	<ui-view></ui-view>
+</body>
+</html>
